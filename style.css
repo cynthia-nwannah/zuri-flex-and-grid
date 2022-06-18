@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.main{
+    margin-bottom: 30px;
+    width: 95%;
+    display: flex;
+    height: 60%;
+    background-color: blueviolet;
+}
+
+.main .sedans {
+    padding: 30px 40px;
+    width: calc(100%/3);
+    max-height: 100%;
+    background-color: #E28525; 
+}
+
+.main .suv {
+    width: calc(100%/3);
+    padding: 30px 35px;
+    max-height: 100%;
+    background-color: #016972; 
+}
+
+.main .luxury {
+    width: calc(100%/3);
+    padding: 30px 20px;
+    max-height: 100%;
+    background-color: #00403F; 
+}
+
+.sedans-b{
+    height: 50%;
+    color:rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
+
+.sedans-b h2 {
+    margin-bottom: 20px;
+}
+
+.sedans-b p {
+    margin-bottom: 80px;
+}
+
+button.one {
+    border: none;
+    padding: 1em;
+    color : #cb9f5d;
+    width: 75%;
+    border-radius: 3em;
+
+}
+button.two{
+    border: none;
+    padding: 1em;
+    color : #92C0BE;
+    width: 75%;
+    border-radius: 3em;
+
+}
+button.three{
+    border: none;
+    padding: 1em;
+    color: #97ACAC;
+    width: 75%;
+    border-radius: 3em;
+}
+
+.grid{
+    width: 85%;
+    height: 80vh;
+    display: grid;
+    margin-bottom: 30px;
+    grid-template-areas: 
+    "a a a b b"
+    "a a a b b"
+    "c c d d d "
+    "c c e e e";
+    gap: 20px;
+    background-color: rgb(11, 5, 33)
+}
+
+.grid .A{
+    background-color: rgb(236, 61, 30);
+    grid-area: a;
+}
+
+.grid .B{
+    grid-area: b;
+    background-color: rgb(243, 131, 12);
+}
+
+.grid .C{
+    grid-area: c;
+    background-color: rgb(29, 196, 29);
+}
+
+.grid .E{
+    grid-area: d;
+    background-color: cyan;
+}
+.grid .D{
+    grid-area: e;
+    background-color: cyan;
+}

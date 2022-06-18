@@ -1,1 +1,5 @@
-# zuri-flex-and-grid
+# author
+nwannah chinwendu cynthia
+
+# built with
+css html
